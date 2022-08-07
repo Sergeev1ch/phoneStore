@@ -1,0 +1,73 @@
+.cartPage{
+    display: flex;
+    font-family: 'Anonymous Pro', monospace;
+}
+.orderForm{
+    position: fixed;
+    height: 85vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    justify-content: center;
+}
+.orderForm input{
+    font-size: 1.3em;
+    margin-top: 1em;
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid black;
+}
+.orderForm p{
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.orderForm button{
+    margin-top: 1em;
+    width: 40%;
+    font-weight: bold;
+    background-color: #FFD101;
+}
+.orderForm span{
+    font-weight: bold;
+    font-size: 0.8em;
+    margin: 0;
+    color: red;
+}
+.orderForm span:nth-child(10){
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 1em;
+    color: black;
+}
+.cartStore{
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.cartItem{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+.cartItem button{
+    font-weight: bold;
+    background-color: #FFD101;
+}
+.cartItem img{
+    width: 50%;
+}
+.cartItem p{
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.cartItem input{
+    background-color: inherit;
+    margin-bottom: 0.8em;
+}

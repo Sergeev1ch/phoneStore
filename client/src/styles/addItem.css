@@ -1,0 +1,28 @@
+.addItemPage{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+.addItemPage p{
+    font-size: 1.5em;
+    font-family: 'Anonymous Pro', monospace;
+    font-weight: bold;
+}
+.formItem{
+    margin: o auto;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+}
+.formItem input{
+    margin-bottom: 1.5em;
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid black;
+}
+.formItem input:last-child{
+    border: none;
+}
